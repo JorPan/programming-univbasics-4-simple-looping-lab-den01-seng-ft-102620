@@ -5,7 +5,6 @@ def loop_message_five_times(string)
   message << string
   i += 1 
   end
-  return message
 end
 
 
