@@ -6,7 +6,6 @@ def loop_message_five_times(string)
   end
 end
 
-#this should be working??? so confused... 
 
 def loop_message_n_times(string, n)
   i = 0 
