@@ -32,4 +32,5 @@ def return_string_array(array)
     string_array << array[i]
     i += 1 
   end
+  return string_array
 end
