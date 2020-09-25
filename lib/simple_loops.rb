@@ -13,7 +13,8 @@ def loop_message_n_times(string, n)
   i = 0
   message = []
     while i < n 
-    puts string 
+    message << string 
     i += 1 
     end
+    return message
 end
