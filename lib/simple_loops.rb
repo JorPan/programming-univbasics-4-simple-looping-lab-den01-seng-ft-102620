@@ -1,8 +1,7 @@
 def loop_message_five_times(string)
   i = 0
-  message = []
   while i < 5 
-  message << string
+  puts string
   i += 1 
   end
 end
