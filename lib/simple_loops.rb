@@ -19,10 +19,17 @@ end
 
 def output_array(array)
   i = 0
-  seperate = []
   while i < array.length do
-    seperate << array[i]
+    puts array[i]
     i += 1 
   end
 end
 
+def return_string_array(array)
+  i = 0 
+  string_array = []
+  while i < array.length do
+    string_array << array[i]
+    i += 1 
+  end
+end
