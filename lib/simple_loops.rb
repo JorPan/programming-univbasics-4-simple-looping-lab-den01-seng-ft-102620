@@ -29,7 +29,7 @@ def return_string_array(array)
   i = 0 
   string_array = []
   while i < array.length do
-    string_array << array[i]
+    string_array << array[i].to_s
     i += 1 
   end
   return string_array
