@@ -1,4 +1,4 @@
-def looping_message_five_times(string)
+def loop_message_five_times(string)
   i = 0
   message = []
   while i < 5 
